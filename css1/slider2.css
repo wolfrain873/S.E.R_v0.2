@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+  
+    height: 500px;
+ 
+}
+
+#contenedor{
+   width: 700px;
+   margin: 30px auto;
+   overflow: hidden;
+
+}
+
+#contenedor ul{
+    list-style: none;
+    width: 2800px;
+    display: flex;
+    animation: slider 15s infinite alternate;
+}
+
+
+
+@keyframes slider {
+    0% { margin-left: 0px;}
+    20%{ margin-left: 0px;}
+
+    25% {margin-left: -700px ;}
+    45% {margin-left: -700px;}
+
+    50% {margin-left: -1400px;}
+    70% {margin-left: -1400px;}
+
+    75% {margin-left: -2100px;}
+    100% {margin-left: -2100px;}
+}
