@@ -3,10 +3,19 @@
     padding: 0;
 }
 
-.a{
-  
-    height: 500px;
- 
+
+.lista img{
+    min-width: 700px;
+    min-height: 500px;
+}
+
+@media (max-width:700px){
+    .lista img{
+        flex-direction: column;
+    }
+    .navegacion{
+        padding: 10px 0px;
+    }
 }
 
 #contenedor{
